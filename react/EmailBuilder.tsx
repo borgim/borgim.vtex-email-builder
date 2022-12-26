@@ -1,3 +1,3 @@
-import EmailBuilder from "./Components/EmailBuilder";
+import { EmailBuilder } from './src/pages/List'
 
-export default EmailBuilder;
+export default EmailBuilder
