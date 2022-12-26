@@ -1,3 +1,7 @@
 {
-  "admin.email-builder.navigation.label-title": "Email Builder"
+  "admin.email-builder.navigation.label-title": "Email Builder",
+  "admin.email-builder.backLink.label": "Back",
+  "admin.email-builder.createButton.label": "Create Template",
+  "admin.email-builder.editButton.label": "Edit",
+  "admin.email-builder.deleteButton.label": "Delete"
 }

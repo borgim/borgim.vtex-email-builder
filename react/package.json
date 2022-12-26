@@ -2,7 +2,8 @@
   "name": "email-builder",
   "version": "0.0.0",
   "scripts": {
-    "test": "vtex-test-tools test"
+    "sass": "sass src:src --no-source-map",
+    "sass:watch": "sass src:src --no-source-map --watch"
   },
   "dependencies": {
     "apollo-client": "^2.6.8",
