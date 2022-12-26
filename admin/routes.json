@@ -1,0 +1,6 @@
+{
+  "admin.app.search": {
+    "component": "EmailBuilder",
+    "path": "/admin/app/emailbuilder"
+  }
+}

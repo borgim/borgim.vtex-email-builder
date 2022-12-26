@@ -1,0 +1,18 @@
+{
+  "vendor": "codeby",
+  "name": "email-builder",
+  "version": "0.0.0",
+  "title": "Email Builder",
+  "description": "Create email templates by only dragging and dropping some blocks",
+  "builders": {
+    "react": "3.x",
+    "messages": "1.x",
+    "admin": "0.x"
+  },
+  "dependencies": {},
+  "registries": [
+    "smartcheckout"
+  ],
+  "policies": [],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
