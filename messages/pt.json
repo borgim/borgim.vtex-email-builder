@@ -5,5 +5,6 @@
   "admin.email-builder.editButton.label": "Editar",
   "admin.email-builder.deleteButton.label": "Apagar",
   "admin.email-builder.customTemplate.label": "personalizado",
-  "admin.email-builder.defaultTemplate.label": "padrão"
+  "admin.email-builder.defaultTemplate.label": "padrão",
+  "admin.email-builder.templateSearch.label": "Procurar template... (ex: Ordem Aprovada)"
 }

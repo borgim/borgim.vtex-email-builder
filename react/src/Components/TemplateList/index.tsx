@@ -1,9 +1,13 @@
+/* eslint-disable no-console */
 import React from 'react'
+import { useIntl } from 'react-intl'
 
 import { TemplateCard } from '../TemplateCard'
 import styles from './styles.css'
 
 export const TemplateList = () => {
+  const intl = useIntl()
+
   const templates = [
     {
       templateName: 'Teste 1',
@@ -40,14 +44,31 @@ export const TemplateList = () => {
 
   return (
     <div className={styles['emailBuilder-list--container']}>
-      {templates.map((template) => (
-        <TemplateCard
-          key={template.templateName}
-          templateName={template.templateName}
-          templateDescription={template.templateDescription}
-          isDefault={template.isDefault}
-        />
-      ))}
+      <input
+        type="text"
+        list="emailTemplates"
+        placeholder={intl.formatMessage({
+          id: 'admin.email-builder.templateSearch.label',
+        })}
+      />
+
+      <datalist id="emailTemplates">
+        {templates.map((template) => (
+          <option value={template.templateName} key={template.templateName}>
+            {template.templateName}
+          </option>
+        ))}
+      </datalist>
+      <div className={styles['emailBuilder-list--render']}>
+        {templates.map((template) => (
+          <TemplateCard
+            key={template.templateName}
+            templateName={template.templateName}
+            templateDescription={template.templateDescription}
+            isDefault={template.isDefault}
+          />
+        ))}
+      </div>
     </div>
   )
 }
