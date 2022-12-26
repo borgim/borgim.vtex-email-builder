@@ -24,7 +24,13 @@ export const TemplateCard = ({
         <Card>
           <div className={styles['emailbuilder-card--header']}>
             <h4>{templateName}</h4>
-            <span>{isDefault ? 'default' : 'custom'}</span>
+            <span>
+              {isDefault ? (
+                <FormattedMessage id="admin.email-builder.defaultTemplate.label" />
+              ) : (
+                <FormattedMessage id="admin.email-builder.customTemplate.label" />
+              )}
+            </span>
           </div>
           <p>{templateDescription}</p>
           <div className={styles['emailbuilder-card--buttons']}>

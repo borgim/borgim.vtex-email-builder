@@ -3,5 +3,7 @@
   "admin.email-builder.backLink.label": "Vuelve",
   "admin.email-builder.createButton.label": "Crear Template",
   "admin.email-builder.editButton.label": "Editar",
-  "admin.email-builder.deleteButton.label": "Eliminiar"
+  "admin.email-builder.deleteButton.label": "Eliminiar",
+  "admin.email-builder.customTemplate.label": "disfraz",
+  "admin.email-builder.defaultTemplate.label": "defecto"
 }
