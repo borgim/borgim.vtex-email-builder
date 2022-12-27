@@ -1,10 +1,26 @@
 {
   "admin.email-builder.navigation.label-title": "Email Builder",
+  "admin.email-builder.subtitle.label-title": "Create email templates just by dragging and dropping blocks",
   "admin.email-builder.backLink.label": "Back",
   "admin.email-builder.createButton.label": "Create Template",
   "admin.email-builder.editButton.label": "Edit",
   "admin.email-builder.deleteButton.label": "Delete",
   "admin.email-builder.customTemplate.label": "custom",
   "admin.email-builder.defaultTemplate.label": "default",
-  "admin.email-builder.templateSearch.label": "search template... (ex: order approved)"
+  "admin.email-builder.templateSearch.label": "search template... (ex: order approved)",
+  "admin.email-builder.createPage.label": "Create template",
+
+  "admin.email-builder.createPage.nameInput.label": "Template name",
+  "admin.email-builder.createPage.descriptionInput.label": "Template Description",
+  "admin.email-builder.createPage.emailTitleInput.label": "Email title",
+  "admin.email-builder.createPage.senderInput.label": "Email sender",
+  "admin.email-builder.createPage.receiverInput.label": "Email Receiver",
+  "admin.email-builder.createPage.receiverCopyInput.label": "Receiver copy",
+
+  "admin.email-builder.createPage.nameInput.placeholder": "name",
+  "admin.email-builder.createPage.descriptionInput.placeholder": "description",
+  "admin.email-builder.createPage.emailTitleInput.placeholder": "title",
+  "admin.email-builder.createPage.senderInput.placeholder": "sender",
+  "admin.email-builder.createPage.receiverInput.placeholder": "receiver",
+  "admin.email-builder.createPage.receiverCopyInput.placeholder": "CC"
 }

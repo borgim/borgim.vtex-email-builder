@@ -1,12 +1,20 @@
 import React from 'react'
 import { FormattedMessage } from 'react-intl'
 import { useRuntime } from 'vtex.render-runtime'
-import { Layout, PageHeader, Button, PageBlock } from 'vtex.styleguide'
+import {
+  Layout,
+  PageHeader,
+  ButtonWithIcon,
+  PageBlock,
+  IconUpload,
+} from 'vtex.styleguide'
 
 import { TemplateList } from '../../Components/TemplateList'
 
 export const EmailBuilder = () => {
   const { navigate } = useRuntime()
+
+  const uploadIcon = <IconUpload />
 
   return (
     <>
@@ -17,18 +25,29 @@ export const EmailBuilder = () => {
             title={
               <FormattedMessage id="admin.email-builder.navigation.label-title" />
             }
+            subtitle={
+              <FormattedMessage id="admin.email-builder.subtitle.label-title" />
+            }
             linkLabel={
               <FormattedMessage id="admin.email-builder.backLink.label" />
             }
-            onLinkClick={() =>
+            onLinkClick={() => {
               navigate({
-                page: 'admin.container',
+                page: 'admin.app.emailbuilder',
               })
-            }
+            }}
           >
-            <Button variation="primary">
+            <ButtonWithIcon
+              variation="primary"
+              icon={uploadIcon}
+              onClick={() =>
+                navigate({
+                  page: 'admin.app.emailbuilderCreate',
+                })
+              }
+            >
               <FormattedMessage id="admin.email-builder.createButton.label" />
-            </Button>
+            </ButtonWithIcon>
           </PageHeader>
         }
       >

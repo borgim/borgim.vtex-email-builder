@@ -1,10 +1,26 @@
 {
   "admin.email-builder.navigation.label-title": "Construtor de Email",
+  "admin.email-builder.subtitle.label-title": "Crie templates de email apenas arrastando e soltando blocos",
   "admin.email-builder.backLink.label": "Voltar",
   "admin.email-builder.createButton.label": "Criar Template",
   "admin.email-builder.editButton.label": "Editar",
   "admin.email-builder.deleteButton.label": "Apagar",
   "admin.email-builder.customTemplate.label": "personalizado",
   "admin.email-builder.defaultTemplate.label": "padrão",
-  "admin.email-builder.templateSearch.label": "Procurar template... (ex: Ordem Aprovada)"
+  "admin.email-builder.templateSearch.label": "Procurar template... (ex: Ordem Aprovada)",
+  "admin.email-builder.createPage.label": "Criar template",
+
+  "admin.email-builder.createPage.nameInput.label": "Nome do template",
+  "admin.email-builder.createPage.descriptionInput.label": "Descrição do template",
+  "admin.email-builder.createPage.emailTitleInput.label": "Título do email",
+  "admin.email-builder.createPage.senderInput.label": "Remetente do email",
+  "admin.email-builder.createPage.receiverInput.label": "Destinatário do email",
+  "admin.email-builder.createPage.receiverCopyInput.label": "Remetente Cópia",
+
+  "admin.email-builder.createPage.nameInput.placeholder": "nome",
+  "admin.email-builder.createPage.descriptionInput.placeholder": "descrição",
+  "admin.email-builder.createPage.emailTitleInput.placeholder": "título",
+  "admin.email-builder.createPage.senderInput.placeholder": "remetente",
+  "admin.email-builder.createPage.receiverInput.placeholder": "destinatário",
+  "admin.email-builder.createPage.receiverCopyInput.placeholder": "CC"
 }

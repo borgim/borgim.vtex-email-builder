@@ -1,6 +1,10 @@
 {
-  "admin.app.search": {
+  "admin.app.emailbuilder": {
     "component": "EmailBuilder",
     "path": "/admin/app/emailbuilder"
+  },
+  "admin.app.emailbuilderCreate": {
+    "component": "CreateTemplate",
+    "path": "/admin/app/emailbuilder/create"
   }
 }
