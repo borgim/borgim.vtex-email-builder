@@ -43,7 +43,7 @@ To use it in your store
 
   vtex login <your_enviroment>
 
-  vtex install codeby.email-builder
+  vtex install vendor.email-builder
 
 ```
 
